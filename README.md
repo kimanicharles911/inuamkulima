@@ -23,6 +23,7 @@ npm install
 | ---- |:---- |
 | POST  | /api/products |
 | POST  | /api/transactions |
+| GET  | /api/products |
 
 ##### Request Body examples
 * /api/products
@@ -76,22 +77,5 @@ MONGODB_PASSWORD=password123
 npm run dev
 ```
 
-<br>
-## License and Copyright Information.
-
-This project is MIT licensed see [my MIT LICENSE](https://github.com/kimanicharles911/inuamkulima/blob/master/LICENSE.txt) for details.<br />
-Copyright © 2022 [Charles Kimani](https://github.com/kimanicharles911).
-
-### Author
-
-###### 👤 **Charles Kimani**
-
-* Website: [author.emmethub.com](https://author.emmethub.com)
-* Github: [@kimanicharles911](https://github.com/kimanicharles911)
-* LinkedIn: [@kimanicharles](https://linkedin.com/in/kimanicharles)
-
-#### Show your support
-
-Give a ⭐️ if this project helped you!
 
 ***

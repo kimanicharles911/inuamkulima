@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import { createProductFunc } from '../controllers/productsController.js';
+import { createProductFunc, getProductsFunc } from '../controllers/productsController.js';
 import { createTransactionFunc } from '../controllers/transactionsController.js';
 
 
@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 
 router.post('/products', createProductFunc);
 router.post('/transactions', createTransactionFunc);
-// router.get('/products', getProductsFunc);
+router.get('/products', getProductsFunc);
 // router.get('/wallet', getBalanceFunc);
 
 export { router as routes }; 

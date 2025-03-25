@@ -24,4 +24,15 @@ const createProductFunc = async (req, res) => {
   }
 };
 
-export { createProductFunc };
+const getProductsFunc = async (req, res) => {
+  try {
+    const result = await ProductModel.find();
+    return res.status(200).send(result);
+  } catch (err) {
+    return res
+      .status(400)
+      .send(`Problem getting product(s) record(s). ${err.message}`);
+  }
+};
+
+export { createProductFunc, getProductsFunc };
