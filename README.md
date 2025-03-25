@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> This is the Repository of an Inuamkulima.
+> This is the Repository of Inuamkulima.
 
 
 #### Setup/Installation Requirements
@@ -15,6 +15,7 @@
 
 ```
 npm install
+Collect MongoDB connection password on email
 ```
 
 #### API Usage
@@ -66,6 +67,17 @@ npm install
   "mpesaMobileNumber": "+254712345678",
   "bankAccount": "12345678901234",
   "crops_and_livestock": "Maize, Cows, Goats"
+}
+```
+
+* /api/merchant
+```
+{
+  "name": "AgroVet Supplies",
+  "location": "Eldoret, Kenya",
+  "contact": "+254789123456",
+  "bankAccount": "98765432101234",
+  "products": "Fertilizers, Pesticides, Animal Feeds"
 }
 ```
 
