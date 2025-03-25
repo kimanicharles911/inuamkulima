@@ -9,6 +9,8 @@
 
 > This is the Repository of Inuamkulima.
 
+> Nodejs could not accomodate a success reponse code of 000 hence I used 200 and 201.
+
 
 #### Setup/Installation Requirements
 ##### Install Dependencies
