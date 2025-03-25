@@ -24,16 +24,20 @@ npm install
 | POST  | /api/products |
 | POST  | /api/transactions |
 | GET  | /api/products |
+| POST  | /api/farmer |
+| GET  | /api/farmers |
+
+
 
 ##### Request Body examples
 * /api/products
 
 ```sh
 {
-  "name": "Organic Tomatoes",
+  "name": "Tomatoes",
   "category": "Vegetables",
   "price": 5.99,
-  "description": "Fresh organic tomatoes grown without pesticides."
+  "description": "Fresh tomatoes"
 }
 
 ```
@@ -48,6 +52,21 @@ npm install
   "totalPrice": 155.0
 }
 ```
+
+
+* /api/farmer
+```
+{
+  "name": "Kimani Waithaka",
+  "location": "Nairobi, Kenya",
+  "contact": "+254712345678",
+  "walletBalance": 500.00,
+  "mpesaMobileNumber": "+254712345678",
+  "bankAccount": "12345678901234",
+  "crops_and_livestock": "Maize, Cows, Goats"
+}
+```
+
 
 
 #### Setup/Installation Requirements

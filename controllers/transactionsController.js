@@ -23,4 +23,17 @@ const createTransactionFunc = async (req, res) => {
   }
 };
 
+/* const getTransactionFunc = async (req, res) => {
+  try {
+    const { id } = req.query;
+    const result = await CarModel.findById(id);
+    return res.status(200).send(result);
+    
+  } catch (err) {
+    return res
+      .status(400)
+      .send(`Problem getting product(s) record(s). ${err.message}`);
+  }
+}; */
+
 export { createTransactionFunc };
