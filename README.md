@@ -19,14 +19,10 @@ npm install
 
 #### API Usage
 
-| HTTP method      |   EndPoint   |   Public Access   |   Example   |
-| ---- |:---- |:---- |:---- |
-| POST     | /api/v1/cars/car    |  TRUE    |  Find example in routes/index.js    |
-| GET     | /api/v1/cars/car    |  TRUE    |  https://cruzcarsautomartmern.herokuapp.com/api/v1/cars/car    |
-| GET     | /api/v1/cars/car?id=61f3bf1ec27ace1490f0b84b    |  TRUE    |  https://cruzcarsautomartmern.herokuapp.com/api/v1/cars/car?id=61f3bf1ec27ace1490f0b84b    |
-| GET     | /api/v1/cars/search?carAge=9    |  TRUE    |  https://cruzcarsautomartmern.herokuapp.com/api/v1/cars/search?carAge=9    |
-| PATCH     | /api/v1/cars/car/:id    |  TRUE    |  Find example in routes/index.js    |
-| DELETE     | /api/v1/cars/car/:id    |  TRUE    |  https://cruzcarsautomartmern.herokuapp.com/api/v1/cars/car/61f37614e24f30ca0558cc41    |
+| HTTP method | EndPoint |
+| ---- |:---- |
+| POST  | /api/products |
+| POST  | /api/transactions |
 
 
 #### Setup/Installation Requirements
