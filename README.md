@@ -26,6 +26,8 @@ npm install
 | GET  | /api/products |
 | POST  | /api/farmer |
 | GET  | /api/farmers |
+| POST  | /api/merchant |
+| GET  | /api/merchants |
 
 
 
