@@ -24,6 +24,30 @@ npm install
 | POST  | /api/products |
 | POST  | /api/transactions |
 
+##### Request Body examples
+* /api/products
+
+```sh
+{
+  "name": "Organic Tomatoes",
+  "category": "Vegetables",
+  "price": 5.99,
+  "description": "Fresh organic tomatoes grown without pesticides."
+}
+
+```
+
+* /api/transactions
+
+```sh
+{
+  "productName": "Fertilizer",
+  "quantity": 10,
+  "pricePerUnit": 15.5,
+  "totalPrice": 155.0
+}
+```
+
 
 #### Setup/Installation Requirements
 
