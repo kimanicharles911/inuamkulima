@@ -101,7 +101,7 @@ npm install
 * Create a .env file in the root directory
 * Then add the below line replacing the name password123 with the MongoDB password sent to your email.
 ```sh
-MONGODB_PASSWORD=password123
+MONGODB_PASSWORD=collect_it_from_submission_email
 ```
 
 ##### Development Usage
